@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['0', '1', '2', '3', '4', '5', '6', '7', 'empty road', 'vehicle']
+
+roboflow:
+  workspace: robot-d5yzg
+  project: robot-gvwj4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robot-d5yzg/robot-gvwj4/dataset/1
